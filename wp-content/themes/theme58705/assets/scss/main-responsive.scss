@@ -1,0 +1,1037 @@
+/*
+Description: The stylesheet with a main responsive style.
+Author:      Cherry Team
+Version:     1.0.0
+*/
+@import "css-framework/responsive/base";
+
+
+
+
+
+
+@media (min-width: 980px) and (max-width: 1400px) {
+
+    .motoslider_wrapper .ms_wrapper {
+        max-height: 400px !important;
+    }
+
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer {
+        width: 90%;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer strong {
+        letter-spacing: 19px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1310px) {
+    
+    .cherry-swiper-carousel.carousel_1 .swiper-pagination {
+        width: auto;
+        right: 15px;
+        left: auto;
+        margin: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+/* Large devices (large desktops, 1200px and down) */
+@media (max-width: $screen-lg-min) {
+    
+    
+    
+    .site {
+        margin: 15px;
+    }
+
+    #static-area-header-top.isStick {
+        right: 15px;
+        left: 15px;
+    }
+
+    #menu-primary.isStick {
+        right: 15px;
+        left: 15px;
+    }
+    
+    
+    
+    
+    .site input[type="submit"],
+    .site input[type="reset"] {
+        padding: 0 25px 0 25px;
+    }
+
+
+
+
+
+    #menu-primary .menu-items > li {
+        margin: 0 0 0 15px;
+    }
+    
+    
+    
+    
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer {
+        width: 90%;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer strong {
+        letter-spacing: 19px;
+    }
+    
+    
+    
+    
+    
+    .cherry-swiper-carousel.carousel_1 .swiper-pagination {
+        width: auto;
+        right: 15px;
+        left: auto;
+        margin: 0;
+    }
+
+    .parallax-block .parallax-box .parallax-content {
+        padding-top: 150px !important;
+        padding-bottom: 150px !important;
+    }
+
+    .parallax_2 .parallax-box .parallax-content p {
+        margin: 0;
+    }
+
+
+
+    .cherry-spacer {
+        &.extra {
+            height: 50px !important;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    #footer h3 {
+        letter-spacing: normal;
+        line-height: 30px;
+        font-size: 28px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and down) */
+@media (max-width: $screen-md-min) {
+
+    
+    
+    
+    #header {
+        text-align: center;
+    }
+    
+    #header .static-header-logo {
+        float: none !important;
+    }
+    
+    #header .static-header-logo a {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #header .static-header-logo a img {
+        width: 100%;
+        vertical-align: top;
+    }
+    
+    
+    
+    #header .static-header-menu {
+        float: none !important;
+    }
+    
+    #menu-primary .menu-items {
+        float: none !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding: 15px 0 !important;
+        vertical-align: top !important;
+    }
+    
+    #menu-primary .menu-items ul.mega-sub {
+        padding: 40px 15px 40px 15px;
+    }
+
+
+
+
+
+    .motoslider_wrapper .ms_wrapper {
+        max-height: 400px !important;
+    }
+    
+    
+    
+    
+    
+    .parallax-block .parallax-box .parallax-content h2 {
+        letter-spacing: 21px;
+    }
+    
+    .parallax_1 {
+        .parallax-box {
+            .parallax-content {
+                padding-top: 150px;
+                padding-bottom: 150px;            
+            }
+        }
+    }
+    
+    .parallax_2 {
+        .parallax-box {
+            .parallax-content {
+                padding-top: 150px;
+                padding-bottom: 150px;            
+            }
+        }
+    }
+    
+    .cherry-swiper-carousel.carousel_1 .swiper-pagination {
+        width: 720px;
+        right: auto;
+        left: 50%;
+        margin: 0 0 0 -360px;
+    }
+    
+    
+    
+    
+    
+    .error-404 .error-404-num {
+        font-size: 180px;
+    }
+    
+    .error-404 .search-form input[type="search"] {
+        width: 180px;
+    }
+    
+    .portfolio-wrap .portfolio-filter {
+        max-width: 750px;
+    }
+
+
+
+    .cherry-services.style_2 .services-listing .cherry-services_item h3 {
+        line-height: 32px;
+        font-size: 30px;
+        text-transform: none;
+    }
+
+
+
+    .related-posts ul li {
+        width: 100%;
+        margin: 20px 0 0 0;
+        &:first-child {
+            margin: 0;
+        }
+    }
+
+    .related-posts ul li .related-picture {
+        float: left;
+        max-width: 45%;
+        margin: 0 20px 5px 0;
+    }
+
+    .related-posts ul li .caption {
+        padding: 0;
+    }
+    
+    
+    
+    
+    
+    
+    #footer {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    
+    #footer h3 {
+        margin: 0 0 33px 0;
+        letter-spacing: normal;
+        line-height: 26px;
+        font-size: 24px;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    #menu-primary .menu-items {
+        display: inline-block !important;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: $screen-sm-min) {
+    
+    
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer strong {
+        padding: 0;
+        letter-spacing: 9px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer strong:before {
+        display: none;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer a {
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_arrows a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_arrows a:before {
+        line-height: 40px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_arrows a.ms_prev {
+        right: 40px !important;
+        left: auto !important;
+    }
+    
+    
+    
+    
+    
+    
+    .site-content {
+        padding: 50px 0 50px 0;
+    }
+    
+    .site-content .container {
+       max-width: 100%;
+    }
+    
+    .site-content .post .caption-block {
+        padding: 25px 0 0 0;
+    }
+    
+    .pagination {
+
+        a,
+        span {
+            min-width: 35px;
+            margin: 0 4px 4px 0;
+            padding: 5.5px 5px 5.5px 5px;
+            line-height: 20px;
+            font-size: 16px;
+        }
+
+    }
+    
+    .portfolio-wrap .portfolio-container .portfolio-list .portfolio-item.list-layout-item .inner-wrap .media-content {
+        float: none !important;
+    }
+    
+    .portfolio-wrap .portfolio-container .portfolio-list .portfolio-item.list-layout-item .inner-wrap .item-content {
+        float: none !important;
+    }
+    
+    .portfolio-pagination {
+        text-align: center;
+    }
+    
+    .portfolio-pagination .page-link {
+        display: inline-block;
+        float: none !important;
+        vertical-align: top;
+    }
+    
+    .portfolio-pagination .page-link li {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    
+    .portfolio-pagination .page-link li a {
+        margin: 0 1px 2px 1px;
+    }
+    
+    .portfolio-pagination .page-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    
+    .portfolio-pagination a {
+        min-width: 35px !important;
+        margin: 0 4px 4px 0 !important;
+        padding: 5.5px 5px 5.5px 5px !important;
+        line-height: 20px !important;
+        font-size: 16px !important;
+    }
+
+
+
+
+    .cherry-services.style_2 .services-listing .cherry-services_item h3 {
+        margin: 0 0 15px 0;
+    }
+
+    .cherry-services.style_2 .services-listing .cherry-services_item .cherry-services_excerpt {
+        margin: 0 0 20px 0;
+    }
+
+
+
+    .cherry-posts-list.style_3 .cherry-posts-item {
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .cherry-posts-list.style_3 .cherry-posts-item .inner .post-thumbnail {
+        margin: 0 0 15px 0;
+    }
+
+
+
+
+    .cherry-list.list_3 {
+        margin-bottom: 30px;
+    }
+
+    body.post-type-archive-service .cherry-services .cherry-services_item {
+        padding-bottom: 40px;
+    }
+
+    body.post-type-archive-service .cherry-services .cherry-services_item h3 {
+        margin: 0 0 16px 0;
+    }
+
+    body.post-type-archive-service .cherry-services .cherry-services_item .cherry-services_excerpt {
+        margin: 0 0 20px 0;
+    }
+    
+    
+    
+    
+    
+    
+    .box_1 .cherry-box > .inner {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 50px;
+        padding-left: 0;        
+    }
+
+    .box_2 {
+        margin-bottom: 50px;
+    }
+
+    .box_2 .cherry-box > .inner {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 50px;
+        padding-left: 0;        
+    }
+    
+    .cherry-services .services-listing .cherry-services_item .services_1 {
+        background: none;
+        padding: 25px 15px 25px 15px !important;
+        border: none !important;
+    }
+    
+    .cherry-services .services-listing .cherry-services_item .services_1:after {
+        display: none !important;
+    }
+    
+    .cherry-services .services-listing .cherry-services_item .services_1:hover .services_block:before {
+        bottom: 0;
+    }
+    
+    .cherry-banner .banner_1 .cherry-banner_content {
+        margin: 0 0 28px 0;
+    }
+    
+    a.btn-default {
+        margin-bottom: 40px;
+    }
+    
+    .fluid-button-right.style_1 {
+        margin: 0 0 30px 0;
+        text-align: left;
+    }
+    
+    
+    
+    .parallax-block .parallax-box .parallax-content h2 {
+        padding: 0;
+        letter-spacing: 5px;
+        line-height: 42px !important;
+        font-size: 42px !important;
+    }
+    
+    .parallax-block .parallax-box .parallax-content {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    
+    
+    
+    .cherry-swiper-carousel.carousel_1 .cherry-swiper-carousel-slide .gallery-carousel .post-thumbnail {
+        max-height: 300px;
+        overflow: hidden;
+    }
+    
+    .cherry-swiper-carousel.carousel_1 .swiper-pagination {
+        width: auto;
+        top: -26px;
+        right: 15px;
+        left: 5px;
+        margin: 0;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    .cherry-services.style_1 .services-listing .cherry-services_item {
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    .google-map-container {
+        max-height: 300px;
+    }
+    
+    
+    
+    
+    
+    
+    
+	.portfolio-wrap .portfolio-container {
+		.portfolio-list {
+			/* List layout */
+			.portfolio-item.list-layout-item {	
+				.inner-wrap {
+					.media-content, .item-content {
+						width:auto;
+						margin:0;						
+					}
+				}
+			}
+		}
+	}
+    
+    
+    
+    
+    
+    .error-404 {
+        text-align: center;
+    }
+    
+    #back-top {
+        margin: 0 0 20px 0;
+    }
+    
+    .author-bio .caption {
+        overflow: visible;
+    }
+    
+    .portfolio-wrap .portfolio-filter ul {
+        line-height: 16px !important;
+        font-size: 13px !important;
+    }
+    
+    .portfolio-wrap .portfolio-filter ul li {
+        margin-right: 13px !important;
+        margin-left: 0 !important;
+    }
+    
+    body.search .site-content .content-area article .entry-thumbnail,
+    body.search .site-content .content-area article .post-thumbnail {
+        max-width: 45%;
+        margin-right: 20px;
+    }
+
+    .related-posts ul li {
+        width: 100%;
+    }
+
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #footer .container {
+       max-width: 100%;
+    }
+    
+    #footer  #static-area-footer-top {
+        margin-bottom: 33px;
+    }
+    
+    #footer h3 {
+        margin: 0 0 23px 0;
+    }
+    
+    #footer .static-footer-sidebars .widget-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+    #menu-primary {
+        padding: 15px;
+    }
+    
+    #menu-primary button,
+    #menu-primary label {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border: none;
+        box-shadow: none;
+        @include transition(all 0.8s ease);
+        font-weight: 700;
+        text-transform: uppercase;
+        
+        &:hover {
+            @include transition(all 0.4s ease);
+        }
+        
+    }
+    
+    #menu-primary label.cherry-mega-menu-mobile-close {
+        margin: 1px 0 0 0;
+    }
+    
+    #menu-primary .menu-items {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    
+    #menu-primary .menu-items ul.sub-menu,
+    #menu-primary .menu-items ul.sub-menu ul.sub-menu,
+    #menu-primary .menu-items ul.simple-sub,
+    #menu-primary .menu-items ul.simple-sub ul.simple-sub{
+        background: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: auto;
+        text-align: center;
+    }
+    
+    #menu-primary .menu-items li,
+    #menu-primary .menu-items li li {
+        display: block;
+        float: none;
+        width: 100% !important;
+        margin: 1px 0 0 0 !important;
+        padding: 0;
+        line-height: 18px;
+        font-size: 13px;
+    }
+    
+    #menu-primary .menu-items li a,
+    #menu-primary .menu-items li li a {
+        padding: 5px 10px;
+        line-height: 18px;
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    
+    .cherry-banner.vertical-line:before {
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .cherry-banner .banner_2 {
+        padding: 20px !important;
+    }
+
+    .cherry-banner .banner_2:before {
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    .cherry-banner .banner_2 p {
+        margin: 0;
+    }
+
+
+
+    .cherry-list.list_2 ul li {
+        float: none;
+        width: 100%;
+        overflow: hidden !important;
+        padding: 10px 30px !important;
+        &:before,
+        &:after {
+            display: none !important;
+        }
+    }
+
+    .cherry-list.list_2 ul li .cherry-icon {
+        margin: 0 0 5px 0;
+    }
+    
+    
+    
+    
+    
+    .static-social-follow ul {
+        float: none;
+        padding-top: 15px;
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* (480px and down) */
+@media (max-width: $screen-xs-min) {
+    
+    
+    
+    h3 em {
+        padding: 5px 10px !important;
+    }
+    
+    
+    
+    
+    
+    
+    .site input[type="text"],
+    .site input[type="email"],
+    .site input[type="tel"],
+    .site input[type="search"],
+    .site textarea {
+        min-height: 40px;
+        padding: 8px 15px 8px 15px;
+    }
+    
+    
+    .site input[type="submit"],
+    .site input[type="reset"] {
+        height: 40px;
+        padding: 0 15px 0 15px;
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    
+    h3 {
+        line-height: 30px !important;
+        font-size: 28px !important;
+    }
+    
+    
+    
+    
+    
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer {
+        line-height: 21px !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer strong {
+        margin: 0 0 15px 0;
+        padding: 0;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer em {
+        padding: 20px 0 0 0;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_slide .ms_layer a {
+        padding: 10px 15px 10px 15px;
+        font-size: 13px;
+    }
+
+    .motoslider_wrapper .ms_wrapper .ms_arrows a {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_arrows a:before {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    
+    .motoslider_wrapper .ms_wrapper .ms_arrows a.ms_prev {
+        right: 20px !important;
+        left: auto !important;
+    }
+    
+    
+    
+    
+    
+    .parallax-block .parallax-box .parallax-content {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .parallax-block .parallax-box .parallax-content h2 {
+        padding: 0;
+        letter-spacing: 2px;
+        line-height: 32px !important;
+        font-size: 32px !important;
+    }
+    
+    
+    
+    
+    
+    
+	.type-post{
+		.entry-thumbnail.cherry-thumb-s{
+			a{
+				display: block;
+				img{
+					width: 100%;
+				}
+			}
+			float: none;
+		}
+	}
+    
+    
+    
+    
+    
+    .error-404 .error-404-num {
+        line-height: 130px;
+        font-size: 130px;
+    }
+    
+    .author-bio {
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .author-bio h3 {
+        line-height: 24px !important;
+        font-size: 19px !important;
+    }
+    
+    .comments-area ol.comment-list li .comment-body {
+        padding: 20px;
+    }
+    
+    .comments-area ol.comment-list li .comment-body .caption {
+        overflow: visible;
+    }
+    
+    .comments-area ol.comment-list li .comment-body .comment-date {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        padding: 0 0 5px 0;
+        text-align: right;
+    }
+    
+    
+    .comment-form p {
+        margin: 0 0 15px 0;
+    }
+    
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+
+
+
+    .cherry-swiper-carousel.carousel_2 .swiper-wrapper .swiper-slide .inner .post-thumbnail {
+        max-width: 180px;
+    }
+
+    .cherry-swiper-carousel-container .swiper-button-prev {
+        top: 68px;
+        margin: 0 0 0 -143px;
+    }
+
+    .cherry-swiper-carousel-container .swiper-button-next {
+        top: 68px;
+        margin: 0 -143px 0 0;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+	.team-wrap{
+		.team-meta{
+			.team-socials{
+				.team-socials_item{
+					.team-socials_link{
+						.team-socials_label{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

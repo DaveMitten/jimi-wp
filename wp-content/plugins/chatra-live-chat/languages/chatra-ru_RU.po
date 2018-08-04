@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatra\n"
+"POT-Creation-Date: 2015-05-06 12:34+0300\n"
+"PO-Revision-Date: 2015-05-21 12:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: chatra.php\n"
+
+#: chatra.php:17
+msgid "Chatra Live Chat Plugin"
+msgstr "Чат Чатра плагин"
+
+#: chatra.php:17
+msgid "Chatra Live Chat"
+msgstr "Чат Чатра"
+
+#: chatra.php:24
+msgid "Chatra Live Chat Setup"
+msgstr "Установка онлайн-консультанта Чатра"
+
+#: chatra.php:26
+msgid ""
+"Seems like everything is OK!<br>\n"
+"Check your <a href=\""
+msgstr ""
+"Кажется, всё готово!<br>\n"
+"Проверьте, появился ли чат на страницах вашего <a href=\""
+
+#: chatra.php:27
+msgid ""
+"\">website</a> to see if the live chat widget is present.<br>\n"
+"Log in to your <a href=\"http://app.chatra.io/?utm_source=WP&utm_campaign=WP\" target=\"_blank\">Chatra dashboard</a> to chat "
+"with your website visitors and manage preferences.<br>"
+msgstr ""
+"\">сайта</a>.<br>\n"
+"Войдите в <a href=\"http://app.chatra.io/?utm_source=WP&utm_campaign=WP\" target=\"_blank\">панель оператора</a>, чтобы "
+"общаться с посетителями и менять настройки чата."
+
+#: chatra.php:30
+msgid ""
+"Signup for a free Chatra account at <a href=\"http://app.chatra.io/?utm_source=WP&utm_campaign=WP\" target=\"_blank\">app."
+"chatra.io</a>,<br> then copy and paste Widget code from Setup & Customize section into the form below:\n"
+msgstr ""
+"Пожалуйста, зарегистрируйтесь на <a href=\"http://app.chatra.io/?utm_source=WP&utm_campaign=WP\" target=\"_blank\">app.chatra."
+"io</a>, <br>зайдите в пункт «Установка и опции» и скопируйте оттуда код виджета в эту форму:\n"
+
+#~ msgid "Chatra Live Chat Plugin Page"
+#~ msgstr "Чат "
+
+#~ msgid "Chatra.io Settings"
+#~ msgstr "Установка онлайн-консультанта Чатра"

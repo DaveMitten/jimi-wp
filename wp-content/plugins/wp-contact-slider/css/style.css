@@ -1,0 +1,191 @@
+/* fix for ie scroll on right*/
+body {overflow: auto;  }
+
+/* fix for gravity form*/
+#wpcs_main_div .gform_wrapper {
+    overflow: hidden;
+}
+
+.wpcs-slide-out-div .gform_wrapper {
+    overflow: hidden;
+}
+
+/* General styling of slide out div */
+
+a.wpcs_contact_label {
+    text-indent: 0 !important;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    writing-mode: lr-tb;
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    position: absolute;
+    min-width: 175px !important;
+    line-height: 21px;
+    text-decoration:none  !important;
+}
+
+a#wpcs_handle {
+    top: 47% !important;
+    width: 170px !important;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+a.wpcs_left {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+a.wpcs_right {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+.wpcs_inner_div {
+    overflow: scroll !important;
+}
+
+.wpcs-slide-out-div {
+    padding: 0px;
+    max-width: 600px;
+    min-height: 50%;
+    max-height: 80%;
+}
+
+.wpcs_content {
+    padding: 20px;
+    z-index: 99999999999;
+}
+
+a.wpcs_contact_label:hover {text-decoration:none;}
+
+/* sales representatives frontend styling */
+.wpcs_sr {
+    width: 420px;
+}
+
+div.wpcs_scroll_div {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: 99999999999;
+    position: relative;
+}
+
+.wpcs_sr_photo {
+    width: 40%;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+}
+
+.wpcs_sr_photo img{
+    overflow: hidden;
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.wpcs_sr_info {
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+    line-height: 50px;
+    text-align: center;
+}
+
+span.wpcs_sr_name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.wpcs_sr_profile {
+    width: 100%;
+    float: left;
+    margin-left: 30px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+
+/* For contact form 7 */
+.wpcs_content div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    text-align: center;
+}
+
+.wpcs_content div.wpcs-gf{
+    width: 400px;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .wpcs-slide-out-div {
+        max-width: 80% !important;
+    }
+
+}
+
+/* fix for small screens */
+@media screen and (max-width: 580px) {
+    .wpcs_content > div, .wpcs_content > div > div{ width:100%!important;}
+}
+
+/* to disable on small screens */
+@media screen and (max-width: 450px) {
+    #wpcs_outer_div {
+        display: none !important;
+    }
+}
+
+
+.wpcs_scroll_div::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+.wpcs_scroll_div::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+.wpcs_scroll_div::-webkit-scrollbar-thumb{
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #000;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.wpcs_scroll_div::-webkit-scrollbar-thumb:window-inactive{
+    background: rgba(208, 0, 0, 0.4);
+}
+
+.wpcs_content div.wpcs-gf {
+    width: 100%;
+}						
+			
+

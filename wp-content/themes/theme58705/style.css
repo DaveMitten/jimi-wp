@@ -1,0 +1,167 @@
+/*
+Theme Name:     theme58705
+Theme URI:      http://www.templatemonster.com/demo/26585.html
+Description:    Your theme description.
+Author:         Template Monster
+Author URI:     http://www.templatemonster.com/
+Version:        1.0.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+Text Domain:    child-theme-domain
+Template:       cherryframework4
+Cherry Version: 4.0.5.1
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+/* 1: footer
+   2: general page
+   3: BREADCRUMBS 
+   4: ninja forms
+   5: homepage
+	 */
+/* ----------------- container ------------- */
+/* div#site-wrapper div#content.site-content.boxed div.container{
+	max-width: none !important;
+} */
+/* -------------1: FOOTER SIDEBAR 1: FOLLOW US------------- */
+
+div#site-wrapper footer#footer.site-footer{
+padding-top: 50px;
+padding-bottom: 35px;
+padding-right: 90px;
+padding-left: 100px;
+padding: 50px 90px 35px 100px
+
+}
+
+div#site-wrapper footer#footer div#static-area-footer-top{
+	margin-bottom: 50px;
+}
+.static-footer-sidebars ul li:first-child.twitter-item {
+    margin: 13px 0 0 0;
+}
+
+.static-footer-sidebars ul li.cherry-follow_item {
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+
+/* this changes the footer hover state to avoid taking the primary as it's hover state. This corresponds to the info colour. It should be consistent, so whatever other hover states are
+keep the footer hover color the same */
+
+#footer a:hover {
+    /* Use of important should be minimal and only in places you are sure it will not impact other areas, causing out of character functionality or behaviour */
+    color: #44abf0 !important;
+}
+
+/* changes team img to circle */
+
+img.avatar.wp-post-image {
+    border-radius: 80px;
+}
+
+/* aligns team name to center */
+
+h5.team-listing_name {
+    text-align: center;
+}
+
+
+/*---------2 : General page -------------------------*/
+/* sticky menu fits in page */
+
+nav#menu-primary.menu-primary {
+    width: inherit;
+}
+
+/* gets rid of the horrid border */
+
+div#site-wrapper.hfeed.site {
+    margin: 0;
+}
+
+
+/* remove scrol to top arrove at certain height */
+@media screen and (height: 3600px) {
+    #back-top.show-totop {
+        visibility: hidden;
+    }
+}
+#content.site-content{
+	padding-top: 0;
+}
+
+/* ------------- 3: BREADCRUMBS ---------------- */
+
+header#header.site-header .cherry-breadcrumbs{
+	padding: 0;
+	padding-top: 20px;
+	background-color: #fdfdfd;
+}
+
+header#header.site-header   div.cherry-breadcrumbs_item_sep, 
+header#header.site-header a.cherry-breadcrumbs_item_link, 
+header#header.site-header .cherry-breadcrumbs_item_target {
+	color: #2c2b2e !important;
+}
+
+/* -------------- 4: ninja forms ---------------- */
+div#nf-form-2-cont .nf-form-content .nf-field-element input, div#nf-form-2-cont .nf-form-content .nf-field-element select, div#nf-form-2-cont .nf-form-content .nf-field-element textarea{
+	height: 40px;
+	min-height: unset;
+}
+
+/* button */
+
+div#nf-form-2-cont .nf-form-content #nf-field-14,
+.bman-button{
+	border: unset;
+	background-color: #362a64;
+	font-size: 16px;
+	padding: 10px 23px;
+	color: #fdfdfd;
+	border-radius: 0;
+
+}
+
+.bman-button{
+	border-radius: 0;
+	background-color: #44abf0;
+	min-width: 200px;
+	font-size: 16px;
+	padding: 10px 23px;
+	color: #fdfdfd !important;
+}
+.bman-button a:hover{
+	color: #e9cf41 !important;
+	background-color: transparent;
+}
+
+
+/*<================= 5: homepage ===================>*/
+
+.white-on-black,  .motopress-service-box-heading-section > h5{
+	color: #fdfdfd;
+}
+
+.motopress-service-box-centered{
+	padding: 20px;
+	height: 200px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+.motopress-service-box-centered:hover {
+	background-color: #e9cf41;
+	opacity: 1;
+	color: #fdfdfd !important;
+
+
+}
+
+

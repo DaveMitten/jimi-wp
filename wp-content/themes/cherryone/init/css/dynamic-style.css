@@ -1,0 +1,472 @@
+#menu-primary .menu-item a:hover, #menu-primary .menu-item.current-menu-item > a {
+	color: $color-link;
+}
+#menu-primary .sub-menu {
+	border-top:3px solid $color-primary;
+}
+#menu-primary .sub-menu a {
+	color: $color-link-hover;
+}
+#menu-primary .sub-menu a:hover, #menu-primary .sub-menu .current-menu-item a {
+	color: $color-link;
+}
+#menu-primary .sub-menu li {
+	line-height: $typography-header-menu[lineheight]px;
+}
+#menu-secondary a {
+	@typography( $typography-footer-menu )
+}
+#menu-secondary .current-menu-item a, #menu-secondary a:hover {
+	color: $color-primary;
+}
+
+
+.menu-primary_trigger {
+	color:#fff;
+	background: $color-primary;
+}
+.menu-items[aria-expanded="true"] {
+	background: $color-secondary;
+}
+#menu-primary .menu-items[aria-expanded="true"] .sub-menu li a {
+	color: $typography-header-menu[color];
+}
+#menu-primary .menu-items[aria-expanded="true"] .sub-menu li a:hover, #menu-primary .menu-items[aria-expanded="true"] .menu-item.current-menu-item > a {
+	color: $color-link;
+}
+
+@media ( max-width:@menu_toogle_endpoint()px ) {
+	#header .search-form {
+		margin:24px 0 0 0;
+	}
+	#header .search-form input.search-submit {
+		padding-left:0;
+	}
+	.site-branding {
+		margin-bottom:10px;
+	}
+	#static-area-showcase-area {
+		  margin: -150px 0 -35px;
+	}
+	#menu-primary.isStick{
+		padding:0;
+		background:none;
+	}
+}
+
+
+.isStick {
+	background: $color-secondary;
+}
+
+
+
+.cherry-btn-primary {
+	background-color: $color-primary;
+	color: @contrast( $color-primary );
+	border: 2px solid $color-primary;
+}
+.cherry-btn-primary:hover {
+	background-color: $color-secondary;
+	color: @contrast( $color-secondary );
+	border: 2px solid $color-secondary;
+}
+.cherry-btn-primary-light {
+	color: $color-primary;
+	border: 2px solid $color-primary;
+}
+.cherry-btn-primary-light:hover {
+	background-color: $color-primary;
+}
+
+
+
+
+#header .search-form input[type="submit"] {
+	color: $typography-header-menu[color];
+}
+#header .search-form input[type="submit"]:hover, #header .search-form.search-open input[type="submit"] {
+	color: $color-link;
+}
+
+
+.search-form .search-field {
+	border:1px solid $color-secondary;
+}
+.search-form .search-submit {
+	background: $color-primary;
+}
+.search-form .search-submit:hover {
+	background: $color-secondary;
+}
+
+
+.site-title.text-logo .site-link:hover {
+	color: $typography-header-logo[color];
+}
+
+
+.cherry-breadcrumbs .cherry-breadcrumbs_content .cherry-breadcrumbs_browse {
+	color: $color-link-hover;
+}
+.cherry-breadcrumbs .page-title {
+	color: $typography-header-menu[color];
+}
+.cherry-breadcrumbs .cherry-breadcrumbs_item_target {
+	color: $color-primary;
+}
+.cherry-breadcrumbs .cherry-breadcrumbs_item_link, .cherry-breadcrumbs .cherry-breadcrumbs_item_sep {
+	color: $typography-header-menu[color];
+}
+.cherry-breadcrumbs .cherry-breadcrumbs_item_link:hover {
+	color: $color-primary;
+}
+
+.cherry-box .box-primary {
+	background-color: $color-primary;
+	color: @contrast( $color-primary, #fff, #333 );
+}
+.cherry-box .box-primary h1, .cherry-box .box-primary h2, .cherry-box .box-primary h3, .cherry-box .box-primary h4, .cherry-box .box-primary h5 {
+	color: @contrast( $color-primary, #fff, #333 );
+}
+.cherry-box .box-primary .cherry-btn-primary-light {
+	color: @contrast( $color-primary, #fff, #333 );
+	border: 2px solid @contrast( $color-primary, #fff, #333 );
+	background:none;
+}
+.cherry-box .box-primary .cherry-btn-primary-light:hover {
+	background-color: @contrast( $color-primary, $color-secondary, #fff );
+	border-color: @contrast( $color-primary, $color-secondary, #fff );
+}
+
+
+
+
+.parallax-box .parallax-content .cherry-btn-primary-light:hover {
+	border-color: $color-primary;
+	background: $color-primary;
+}
+
+
+
+
+.cherry-chart .cherry-progress-title, .cherry-chart .cherry-progress-progress {
+	color: $color-secondary;
+}
+
+
+
+
+
+.cherry-swiper-carousel .swiper-wrapper .team-item .post-thumbnail:before {
+	background: $color-primary;
+}
+.cherry-swiper-carousel .swiper-wrapper .team-item .post-thumbnail .bottom-arrow {
+	border-color: $color-primary transparent transparent transparent;
+}
+.cherry-swiper-carousel .swiper-wrapper .team-item .post-meta {
+	color: $color-secondary;
+}
+.cherry-swiper-carousel .swiper-wrapper .team-item .team-socials_item .team-socials_link {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+}
+.cherry-swiper-carousel .swiper-pagination .swiper-pagination-bullet {
+	background: $color-secondary;
+}
+.cherry-swiper-carousel .swiper-pagination .swiper-pagination-bullet:hover, .cherry-swiper-carousel .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: $color-primary;
+}
+
+.cherry-swiper-carousel-container .position {
+	color: $color-link-hover;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+	color: $color-primary;
+}
+.swiper-pagination-bullet-active {
+	background: $color-primary;
+}
+
+
+
+
+
+.cherry-counter span.count {
+	color: $color-primary;
+}
+
+
+
+
+
+.static-area-footer-social {
+	background: $color-primary;
+}
+#static-area-footer-social .cherry-follow_title {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+}
+.cherry-follow_list .cherry-follow_item .cherry-follow_link {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+}
+.cherry-follow_list .cherry-follow_item .cherry-follow_link:before {
+	background: @contrast( $color-primary, $color-secondary, #fff );
+}
+.widget .cherry-follow_list .cherry-follow_item .cherry-follow_link {
+	color: $color-link-hover;
+}
+.widget .cherry-follow_list .cherry-follow_item .cherry-follow_link:hover {
+	color: #fff;
+}
+#footer .widget_recent_entries a {
+	color: $color-link;
+}
+
+
+
+
+.widget_recent_entries ul li a {
+	color: $color-link;
+}
+
+
+
+
+
+.wpcf7 form input[type="text"], .wpcf7 form input[type="email"], .wpcf7 form textarea {
+	@typography( $typography-body )
+	color: $color-secondary;
+}
+.wpcf7 form .submit-wrap input {
+	color: $color-secondary;
+}
+.wpcf7 form .submit-wrap input:hover {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	border-color: $color-primary;
+	background: $color-primary;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: $typography-body[color];
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+	color: $typography-body[color];
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	color: $typography-body[color];
+}
+
+
+
+
+
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default.cherry-spoiler-closed .cherry-spoiler-title:before {
+	color: $color-secondary;
+}
+.cherry-accordion .cherry-spoiler.cherry-spoiler-style-default .cherry-spoiler-title:before {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	border-color: $color-primary;
+	background: $color-primary;
+}
+
+
+
+
+
+.testimonials-list .testimonials-item blockquote footer {
+	color: $color-secondary;
+}
+
+
+
+
+
+.static-simple-slider .sp-arrow {
+	background: $color-primary;
+}
+.static-simple-slider .sp-arrow:hover {
+	background: $color-secondary;
+}
+.static-simple-slider .sp-layer .cherry-btn.cherry-btn-primary-light:hover {
+	border-color: $color-secondary;
+	background: $color-secondary;
+}
+.static-simple-slider .sp-button {
+	border-color: $color-primary;
+}
+.static-simple-slider .sp-button.sp-selected-button {
+	background: $color-primary;
+}
+.static-simple-slider .slider-container {
+	background: $body-background[color];
+}
+
+
+
+
+
+
+.entry-title a {
+	color: $color-link-hover;
+}
+.entry-title a:hover {
+	color: $color-link;
+}
+.entry-permalink a {
+	color: #fff;
+	background: $color-primary;
+}
+.entry-permalink a:hover {
+	color: #fff;
+	background: $color-secondary;
+}
+
+.navigation.pagination .nav-links .page-numbers {
+	color: #fff;
+	background: $color-secondary;
+}
+.navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .page-numbers.current {
+	background: $color-primary;
+}
+
+.paging-navigation .nav-links a {
+	color: $color-secondary;
+	border:2px solid $color-secondary;
+}
+.paging-navigation .nav-links a:hover {
+	color:#fff;
+	border-color: $color-primary;
+	background: $color-primary;
+}
+
+
+
+
+
+.widget ul li a {
+	color: $color-secondary;
+}
+.widget ul li a:hover {
+	color: $color-primary;
+}
+.widget_categories li a:hover:before {
+	color: $color-link;
+}
+
+
+
+
+.error-404-num {
+	font-family: typography-h1[family];
+	font-size:120px;
+	line-height:120px;
+	font-weight:bold;
+	color: $color-secondary;
+}
+
+
+
+
+
+
+.portfolio-wrap .portfolio-container .portfolio-list div.portfolio-item .rollover-content:before {
+	background: $color-primary;
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content h3 {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .content {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	border: 2px solid @contrast( $color-primary, #fff, $color-secondary );
+}
+.portfolio-wrap .portfolio-container.grid-layout .portfolio-list div.portfolio-item .item-content.rollover-content .item-link:hover {
+	color: @contrast( $color-secondary, #fff, $color-primary );
+	border-color: $color-secondary;
+	background: $color-secondary;
+}
+
+.portfolio-wrap .portfolio-container .portfolio-ajax-button .load-more-button a {
+	color: #fff;
+	background: $color-primary;
+}
+.portfolio-wrap .portfolio-container .portfolio-ajax-button .load-more-button a:hover {
+	background: $color-secondary;
+}
+.portfolio-wrap .portfolio-filter ul.filter li a {
+	color: $color-link-hover;
+}
+.portfolio-wrap .portfolio-filter ul.filter li a:hover, .portfolio-wrap .portfolio-filter ul.filter li.active a {
+	color: $color-link;
+}
+.portfolio-wrap .portfolio-filter ul.filter li:before {
+	background: $color-primary;
+}
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a, .portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a {
+	color: #fff;
+	background: $color-primary;
+}
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a:hover, .portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li.active a, .portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a:hover {
+	background:	$color-secondary;
+}
+
+.cherry-spinner-double-bounce .cherry-double-bounce1, .cherry-spinner-double-bounce .cherry-double-bounce2 {
+	background-color: $color-primary;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container .post-date {
+	color: $color-link-hover;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post a {
+	color: $color-link;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post a:hover {
+	color: $color-link-hover;
+}
+body.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container i {
+	color: $color-link-hover;
+}
+
+
+
+
+
+.related-posts .entry-title a {
+	color: $color-secondary;
+}
+.related-posts .entry-title a:hover {
+	color: $color-primary;
+}
+.related-posts .entry-permalink a {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	background:  $color-primary;
+}
+.related-posts .entry-permalink a:hover {
+	color: @contrast( $color-secondary, #fff, $color-primary );
+	background: $color-secondary;
+}
+
+.comment-respond form .form-submit .submit {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	background: $color-primary;
+}
+.comment-respond form .form-submit .submit:hover {
+	color: @contrast( $color-secondary, #fff, $color-primary );
+	background: $color-secondary;
+}
+
+.comment-list .comment-author .fn a {
+	color: $color-secondary;
+}
+.comment-list .comment-author .fn a:hover {
+	color: $color-primary;
+}
+
+.comment-reply-link {
+	color: @contrast( $color-primary, #fff, $color-secondary );
+	background: $color-primary;
+}
+.comment-reply-link:hover {
+	color: @contrast( $color-secondary, #fff, $color-primary );
+	background: $color-secondary;
+}

@@ -1,0 +1,345 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blank\n"
+"POT-Creation-Date: 2016-02-26 16:04+0200\n"
+"PO-Revision-Date: 2015-05-04 15:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:42
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../functions.php:46
+msgid "Cherry Shortcodes"
+msgstr ""
+
+#: ../functions.php:51
+msgid "Cherry Shortcodes Templater"
+msgstr ""
+
+#: ../functions.php:56
+msgid "Cherry Portfolio"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Cherry Team"
+msgstr ""
+
+#: ../functions.php:66
+msgid "Cherry Social"
+msgstr ""
+
+#: ../functions.php:71
+msgid "Cherry Services"
+msgstr ""
+
+#: ../functions.php:76
+msgid "Cherry Mega Menu"
+msgstr ""
+
+#: ../functions.php:81
+msgid "MotoPress and CherryFramework 4 Integration"
+msgstr ""
+
+#: ../functions.php:86
+msgid "MotoPress Content Editor"
+msgstr ""
+
+#: ../functions.php:92
+msgid "MotoPress Slider"
+msgstr ""
+
+#: ../functions.php:166
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../functions.php:167 ../inc/class-tgm-plugin-activation.php:166
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:168 ../inc/class-tgm-plugin-activation.php:167
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:169
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:180
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: ../functions.php:181 ../inc/class-tgm-plugin-activation.php:181
+#: ../inc/class-tgm-plugin-activation.php:2051
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:334
+msgid "To Top"
+msgstr ""
+
+#: ../functions.php:335
+msgid "Display to top button?"
+msgstr ""
+
+#: ../functions.php:373
+msgid "Breadcrumbs background"
+msgstr ""
+
+#: ../functions.php:374
+msgid "Set background for breadcrumbs container. "
+msgstr ""
+
+#: ../functions.php:422
+msgid "Submit comment"
+msgstr ""
+
+#: ../functions.php:424
+msgid "Name*"
+msgstr ""
+
+#: ../functions.php:426
+msgid "E-mail*"
+msgstr ""
+
+#: ../functions.php:428
+msgid "Website"
+msgstr ""
+
+#: ../functions.php:430
+msgid "Comment*"
+msgstr ""
+
+#: ../functions.php:443
+msgid "Featured Image"
+msgstr ""
+
+#: ../functions.php:479
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../functions.php:480
+msgid ""
+"You can paste your Google Analytics or other tracking code in this box. This "
+"will be automatically added to the footer."
+msgstr ""
+
+#: ../functions.php:557 ../functions.php:558
+msgid "Blog subtitle"
+msgstr ""
+
+#: ../functions.php:610
+msgid "Main menu"
+msgstr ""
+
+#: ../functions.php:611
+msgid "Header top static area"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:165
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:168
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:179
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:180
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:182
+#: ../inc/class-tgm-plugin-activation.php:1737
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:183
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:184
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:616
+#: ../inc/class-tgm-plugin-activation.php:2268
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1253
+#: ../inc/class-tgm-plugin-activation.php:1434
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1256
+#: ../inc/class-tgm-plugin-activation.php:1437
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1261
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1264
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1264
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1267
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1269
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1374
+#: ../inc/class-tgm-plugin-activation.php:1495
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1398
+#: ../inc/class-tgm-plugin-activation.php:1496
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1458
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1474
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1475
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1476
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1477
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2034
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2035
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2036
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2037
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2038
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2039
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2050
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2164
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2165
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2165
+#: ../inc/class-tgm-plugin-activation.php:2174
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2165
+#: ../inc/class-tgm-plugin-activation.php:2174
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2166
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2167
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2171
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2172
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2173
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2174
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2175
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2176
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
